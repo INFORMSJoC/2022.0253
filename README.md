@@ -8,7 +8,7 @@ Data-based, two-stage stochastic programming using bootstrap and bagging for con
 
 This archive version corresponds to tag v0.1.0-beta on [boot-sp github](https://github.com/boot-sp/boot-sp)
 
-## To cite:
+## To cite
 
 Chen, X. and Woodruff, D.L., "Software for data-based stochastic programming using bootstrap estimation" to appear in
 The INFORMS Journal on Computing, 2023.
@@ -45,7 +45,9 @@ Installation (particularly of mpi4py) on Windows may be challenging.
 From the directory where you downloaded boot-sp, which has the name
 boot-sp, give the command
 
-$ python setup.py develop
+- python setup.py develop
+
 or
-$ python setup.py install
+
+- python setup.py install
 

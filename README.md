@@ -15,7 +15,9 @@ The INFORMS Journal on Computing, 2023.
 
 ## Documentation
 
-There is documentation on [readthedocs](https://boot-sp.readthedocs.io/en/latest/)
+There is documentation on [readthedocs](https://boot-sp.readthedocs.io/en/latest/). Note: If
+you want to use this archive instead of the current version, the directory named
+mpi-sppy will not exist. That directory name is 2022.0253 for this archive.
 
 ## Running Examples in the online supplement
 

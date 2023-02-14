@@ -1,3 +1,4 @@
+# This software is distributed under the 3-clause BSD License.
 # archive version create 25 Jan 2023
 # A driver for boot_sp to be used by researchers interested in doing simulations
 

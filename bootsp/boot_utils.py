@@ -1,3 +1,4 @@
+# This software is distributed under the 3-clause BSD License.
 # archive version create 25 Jan 2023
 # utilities for the bootstrap code
 

@@ -1,3 +1,4 @@
+# This software is distributed under the 3-clause BSD License.
 # archive version created 25 Jan 2023
 # general-purpose bootstrap code
 import os

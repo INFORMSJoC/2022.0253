@@ -7,19 +7,21 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [3-clause BSD 
 
 The software and data in this repository are a snapshot of the software and data
 described in the paper
-["Software for data-based stochastic programming using bootstrap estimation"](https://doi.org/aa.bbbb/ijoc.yyy.zzzz) by X. Chen and D.L. Woodruff.
-The snapshot corresponds to tag v0.1.0-beta on [boot-sp github](https://github.com/boot-sp/boot-sp)
+["Software for data-based stochastic programming using bootstrap estimation"](https://doi.org/10.128/ijoc.2022.0253) by X. Chen and D.L. Woodruff.
+The snapshot corresponds to [tag v0.1.0-beta](https://github.com/boot-sp/boot-sp/releases/tag/v0.1.0-beta)
 
 
 **Important: This code is being developed on an on-going basis at 
 https://github.com/boot-sp/boot-sp) Please go there if you would like to
-get a more recent version or would like support**
+get a more recent version or would like support.**
 
 ## Cite
 
-To cite this software, please cite the [paper](https://doi.org/aa.bbbb/ijoc.yyy.zzzz) using its DOI and the software itself, using the following DOI.
+To cite the contents of this respository, please cite both the paper and this repo, using their respective DOIs.
 
-[![DOI](https://zenodo.org/badge/cccc.svg)](https://zenodo.org/badge/latestdoi/cccc)
+https://doi.org/10.1287/ijoc.2022.0253
+
+https://doi.org/10.1287/ijoc.2022.0253.cd
 
 Below is the BibTex for citing this snapshot version of the code.
 
@@ -29,7 +31,7 @@ Below is the BibTex for citing this snapshot version of the code.
   publisher =     {INFORMS Journal on Computing},
   title =         {{boot-sp} tag v0.1.0-beta},
   year =          {2023},
-  doi =           {10.5281/zenodo.cccc},
+  doi =           {10.1287/ijoc.2022.0253.cd},
   url =           {https://github.com/INFORMSJoC/2022.0253},
 }  
 ```
@@ -42,38 +44,41 @@ Data-based, two-stage stochastic programming using bootstrap and bagging for con
 
 ## Dependencies
 
-This archive version should work with
+This snapshot version should work with
 
 - Python 3.8-3.11
 - Pyomo 6.4.2
 - mpi-sppy: release 0.11.1 should work, but tag 0.11.1.1 might be better
 
-If you really want to run this archive version and not the current version of boot-sp, then
+If you really want to run this snapshot version and not the current version of boot-sp, then
 you probably should make sure you have these versions of Pyomo and mpi-sppy
-before you run setup.py because setup.py will get current versions of these
-programs, which might not work with this archive in the future.
+before you run setup.py for boot-sp because setup.py will get current versions of these
+dependencies, which might not work with this snapshot in the future.
 
-There are various dependencies for mpi-sppy; most importantly, it would like to have mpi4py available.
+There are various dependencies for mpi-sppy; most importantly, it would like to have mpi4py available, but can do some things without it.
 
 This software could work on Windows machines in principle, but it has only been tested on *nix machines.
-Installation (particularly of mpi4py) on Windows may be challenging.
+Installation (particularly of MPI and mpi4py) on Windows may be challenging.
 
 ## Running setup.py
 
 From the directory where you downloaded boot-sp, which for this archive is 2022.0253,
 give the command
 
-- python setup.py develop
+```
+python setup.py develop
+```
 
 or
 
-- python setup.py install
-
+```
+python setup.py install
+```
 
 ## Documentation
 
 There is documentation on [readthedocs](https://boot-sp.readthedocs.io/en/latest/). Note: If
-you want to use this archive instead of the current version, the directory named
+you want to use this snapshot instead of the current version, the directory named
 mpi-sppy will not exist. That directory name is 2022.0253 for this archive.
 
 ## Running Examples in the online supplement

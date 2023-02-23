@@ -29,7 +29,7 @@ Below is the BibTex for citing this snapshot version of the code.
 @article{boot-sp,
   author =        {X.\ Chen and D.L.\ Woodruff},
   publisher =     {INFORMS Journal on Computing},
-  title =         {{boot-sp} tag v0.1.0-beta},
+  title =         {{boot-sp} v2022.0253},
   year =          {2023},
   doi =           {10.1287/ijoc.2022.0253.cd},
   url =           {https://github.com/INFORMSJoC/2022.0253},

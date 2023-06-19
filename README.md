@@ -81,6 +81,11 @@ There is documentation on [readthedocs](https://boot-sp.readthedocs.io/en/latest
 you want to use this snapshot instead of the current version, the directory named
 mpi-sppy will not exist. That directory name is 2022.0253 for this snapshot.
 
+## Online Supplement
+
+The online supplement referenced in the paper is in the directory online_supplement in this
+github repository.
+
 ## Running Examples in the online supplement
 
 If you want to run the examples (either with this snapshot version or the current version)

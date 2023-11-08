@@ -7,7 +7,7 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [3-clause BSD 
 
 The software and data in this repository are a snapshot of the software and data
 described in the paper
-["Software for data-based stochastic programming using bootstrap estimation"](https://doi.org/10.128/ijoc.2022.0253) by X. Chen and D.L. Woodruff.
+["Software for data-based stochastic programming using bootstrap estimation"](https://doi.org/10.1287/ijoc.2022.0253) by X. Chen and D.L. Woodruff.
 The snapshot corresponds to [tag v0.1.0-beta](https://github.com/boot-sp/boot-sp/releases/tag/v0.1.0-beta)
 
 
